@@ -48,7 +48,7 @@ export default function Header() {
                 <li
                   className={`${outfit.className} font-large text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out text-lg`}
                 >
-                  ETrillium Technologies
+                  eTrillium Technologies
                 </li>
               </ul>
             </nav>

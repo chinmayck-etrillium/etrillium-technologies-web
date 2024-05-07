@@ -14,7 +14,7 @@ export default function MobileMenu() {
       <div
         className={`${outfit.className} font-large text-purple-600 hover:text-gray-200 text-xl font-bold text-center py-4`}
       >
-        ETrillium Technologies
+        eTrillium Technologies
       </div>
     </div>
   );
