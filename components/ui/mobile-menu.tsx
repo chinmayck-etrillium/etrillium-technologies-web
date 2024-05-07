@@ -1,6 +1,5 @@
-"use client";
-
-import { useState, useEffect } from "react";
+import React from "react";
+import Link from "next/link";
 import { Outfit } from "@next/font/google";
 
 const outfit = Outfit({
@@ -9,23 +8,14 @@ const outfit = Outfit({
 });
 
 export default function MobileMenu() {
-  const [isHomepage, setIsHomepage] = useState(false);
-
-  useEffect(() => {
-    // Determine if we are on the homepage after component mounts
-    setIsHomepage(window.location.pathname === "/");
-  }, []);
-
   return (
     <div className="md:hidden">
-      {/* Render "Etrillium Technologies" if it's the homepage */}
-      {isHomepage && (
-        <div
-          className={`${outfit.className} font-large text-purple-600 hover:text-gray-200 text-2xl font-bold text-center py-4`}
-        >
-          Etrillium Technologies
-        </div>
-      )}
+      {/* Render "Etrillium Technologies" */}
+      <div
+        className={`${outfit.className} font-large text-purple-600 hover:text-gray-200 text-2xl font-bold text-center py-4`}
+      >
+        ETrillium Technologies
+      </div>
     </div>
   );
 }
