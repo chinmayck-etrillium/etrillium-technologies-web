@@ -47,7 +47,7 @@ export default function Footer() {
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
-            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-2 gap-8 justify-self-center mt-10">
+            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-2 gap-8 justify-self-left mt-10">
               {/* 2nd block */}
               <div className="text-sm">
                 <h6 className="text-gray-200 font-medium mb-1">Services</h6>
