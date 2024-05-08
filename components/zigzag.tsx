@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import FeatImage01 from "../public/images/comprehensive-solutions.jpg";
-import FeatImage02 from "../public/images/personalised-guidance.jpg";
-import FeatImage03 from "../public/images/streamlined-experience.jpg";
+import FeatImage01 from "../public/images/comprehensive-solutions.webp";
+import FeatImage02 from "../public/images/personalised-guidance.webp";
+import FeatImage03 from "../public/images/streamlined-experience.webp";
 
 export default function Zigzag() {
   return (

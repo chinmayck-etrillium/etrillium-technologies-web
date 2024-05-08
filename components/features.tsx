@@ -60,8 +60,11 @@ export default function Features() {
                   strokeWidth="2"
                 />
               </svg>
-              <h4 className="h4 mb-2">Tailored Strategies</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <h4 className="h4 mb-2 ">Tailored Strategies</h4>
+              <p
+                className="text-lg text-gray-400 text-center text-justify mt-8"
+                style={{ letterSpacing: "-1px" }}
+              >
                 Our wealth management services are personalized to your unique
                 financial goals, risk tolerance, and timeline, ensuring a
                 customized approach to building and preserving your wealth.
@@ -101,8 +104,13 @@ export default function Features() {
                   strokeLinecap="square"
                 />
               </svg>
-              <h4 className="h4 mb-2">Comprehensive Financial Planning</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <h4 className="h4 mb-2 text-center">
+                Comprehensive Financial Planning
+              </h4>
+              <p
+                className="text-lg text-gray-400 text-center text-justify"
+                style={{ letterSpacing: "-1px" }}
+              >
                 We provide holistic financial planning that encompasses
                 investment management, retirement planning, estate planning, tax
                 optimization, and more, addressing all aspects of your financial
@@ -155,7 +163,10 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Expert Guidance</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p
+                className="text-lg text-gray-400 text-center text-justify mt-7"
+                style={{ letterSpacing: "-0.5px" }}
+              >
                 Our team of experienced wealth managers offers professional
                 expertise and guidance, leveraging in-depth market knowledge and
                 industry insights to make informed investment decisions on your
@@ -201,7 +212,10 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Diversified Portfolios</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p
+                className="text-lg text-gray-400 text-center text-justify"
+                style={{ letterSpacing: "-0.7px" }}
+              >
                 We construct well-diversified investment portfolios tailored to
                 your needs, incorporating a mix of asset classes, sectors, and
                 investment styles to optimize returns while managing risk.
@@ -242,8 +256,11 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Proactive Monitoring and Adjustments</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <h4 className="h4 mb-2">Proactive Monitoring</h4>
+              <p
+                className="text-lg text-gray-400 text-center text-justify"
+                style={{ letterSpacing: "-0.5px" }}
+              >
                 We continuously monitor your portfolio's performance and
                 proactively make adjustments as needed to adapt to changing
                 market conditions, ensuring your investment strategy remains
@@ -292,11 +309,17 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Transparent Reporting</h4>
-              <p className="text-lg text-gray-400 text-center">
-                We provide transparent reporting and regular communication,
-                keeping you informed about the progress of your investments and
-                the overall performance of your wealth management strategy.
+
+              <h4 className="h4 mb-2">Comprehensive Coverage</h4>
+              <p
+                className="text-lg text-gray-400 text-center text-justify"
+                style={{ letterSpacing: "-0.5px" }}
+              >
+                Secure your peace of mind with our comprehensive insurance
+                coverage and claim advisory service. Our feature-packed plans
+                offer protection for every aspect of your life, from auto to
+                home, health, and life insurance. Trust in our services for
+                reliable protection against unforeseen events and emergencies.
               </p>
             </div>
           </div>
