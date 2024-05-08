@@ -3,7 +3,7 @@ import React from "react";
 import VideoThumb from "@/public/images/hero-image-01.jpg";
 import ModalVideo from "@/components/modal-video";
 import { useState } from "react";
-import Thumbnail from "../public/images/start.jpg";
+import Thumbnail from "../public/images/start.webp";
 
 export default function Hero() {
   // State to manage the visibility of the popup
@@ -105,18 +105,19 @@ export default function Hero() {
                 <button
                   onClick={handleStartPlanning}
                   type="button"
-                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 mr-3 rounded-3xl"
                 >
                   Start planning!
                 </button>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a
-                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
-                  href="#0"
+                <button
+                  onClick={handleStartPlanning}
+                  type="button"
+                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 rounded-3xl"
                 >
                   Learn more
-                </a>
+                </button>
               </div>
             </div>
           </div>
