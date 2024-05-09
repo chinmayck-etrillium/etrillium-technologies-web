@@ -114,7 +114,7 @@ export default function Hero() {
                 <button
                   onClick={handleStartPlanning}
                   type="button"
-                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full mb-4 sm:w-auto sm:mb-0 rounded-3xl "
+                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 rounded-3xl"
                 >
                   Learn more
                 </button>
