@@ -20,10 +20,15 @@ const FinancialForm: React.FC<FinancialFormProps> = ({
 
     const income = parseInt(monthlyIncome.toString());
     const expenses = parseInt(monthlyExpenses.toString());
-    const emi = parseInt(monthlyEmi.toString());
+    let emi = parseInt(monthlyEmi.toString());
 
-    const totalExpenses = expenses + emi + 0;
+    if (!emi) {
+      emi = 0;
+    }
+
+    const totalExpenses = expenses + parseInt(1 + emi.toString());
     const percentage = (totalExpenses / income) * 100;
+    console.log(income, expenses, emi);
 
     if (percentage > 80) {
       setResult("bad");
