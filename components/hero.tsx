@@ -4,16 +4,27 @@ import VideoThumb from "@/public/images/hero-image-01.jpg";
 import ModalVideo from "@/components/modal-video";
 import { useState } from "react";
 import Thumbnail from "../public/images/start.webp";
-
+import FinancialForm from "./financial-form";
 export default function Hero() {
   // State to manage the visibility of the popup
   const [showPopup, setShowPopup] = useState(false);
+  const [showForm, setShowForm] = useState(false);
 
   // Function to handle the "Start planning!" button click
   const handleStartPlanning = () => {
     // Show the popup
     setShowPopup(true);
   };
+
+  const handleLearnMore = () => {
+    setShowForm(true);
+    
+  };
+
+  const handleCloseLearnMore = () => {
+    setShowForm(false);
+  };
+
 
   // Function to handle closing the popup
   const handleClosePopup = () => {
@@ -112,12 +123,16 @@ export default function Hero() {
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <button
-                  onClick={handleStartPlanning}
+                  onClick={handleLearnMore}
                   type="button"
                   className="btn text-white bg-gray-700 hover:bg-gray-800 w-full mb-4 sm:w-auto sm:mb-0 rounded-3xl"
                 >
                   Learn more
                 </button>
+              </div>
+              <div>
+                {/* Financial Form */}
+                {showForm && <FinancialForm handleCloseLearnMoreHero={handleCloseLearnMore} />}
               </div>
             </div>
           </div>
