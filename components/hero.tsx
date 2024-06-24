@@ -5,6 +5,7 @@ import ModalVideo from "@/components/modal-video";
 import { useState } from "react";
 import Thumbnail from "../public/images/start.webp";
 import FinancialForm from "./financial-form";
+
 export default function Hero() {
   // State to manage the visibility of the popup
   const [showPopup, setShowPopup] = useState(false);
@@ -14,17 +15,16 @@ export default function Hero() {
   const handleStartPlanning = () => {
     // Show the popup
     setShowPopup(true);
+    console.log(process.env.API_KEY);
   };
 
   const handleLearnMore = () => {
     setShowForm(true);
-    
   };
 
   const handleCloseLearnMore = () => {
     setShowForm(false);
   };
-
 
   // Function to handle closing the popup
   const handleClosePopup = () => {
@@ -101,43 +101,18 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Empowering Your Financial Future, Step by Step.
+              Your Partner in Legal and Financial Planning.
             </h1>
             <p
-              className="text-xl text-gray-400 mb-8"
+              className="text-xl text-gray-400 mb-12"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Crafting Your Financial Future: Set Up Once, Enjoy Timeless
-              Success.
+              Your Future, Our Priority: Providing Comprehensive Legal and
+              Financial Solutions to Ensure Your Success.
             </p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div data-aos="fade-up" data-aos-delay="400">
-                <button
-                  onClick={handleStartPlanning}
-                  type="button"
-                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 mr-3 rounded-3xl"
-                >
-                  Start planning!
-                </button>
-              </div>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <button
-                  onClick={handleLearnMore}
-                  type="button"
-                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full mb-4 sm:w-auto sm:mb-0 rounded-3xl"
-                >
-                  Learn more
-                </button>
-              </div>
-              <div>
-                {/* Financial Form */}
-                {showForm && <FinancialForm handleCloseLearnMoreHero={handleCloseLearnMore} />}
-              </div>
-            </div>
-          </div>
 
-          <ModalVideo
+            <ModalVideo
             thumb={Thumbnail}
             thumbWidth={800}
             thumbHeight={600}
@@ -146,6 +121,67 @@ export default function Hero() {
             videoWidth={1920}
             videoHeight={1080}
           />
+
+            <h2
+              className="text-2xl font-bold my-10"
+              style={{ letterSpacing: "1px" }}
+              data-aos="fade-up"
+            >
+              Introducing Our Legal Services and Financial Planning Products
+            </h2>
+            <div className=" text-lg " data-aos="fade-up">
+              <ul>
+                <li className="text-left my-5 text-gray-400">
+                  <strong className="text-gray-200">AmicusCue:</strong> Access
+                  expert legal advice and services tailored to your needs. From
+                  consultation to documentation, our platform ensures seamless
+                  handling of your legal matters, providing peace of mind and
+                  clarity.
+                </li>
+                <li className="text-left my-5 text-gray-400">
+                  <strong className="text-gray-200">Financify:</strong> Achieve
+                  your financial goals with precision and confidence. Our
+                  AI-driven financial planning services offer personalized
+                  strategies, insightful recommendations, and ongoing support to
+                  maximize your financial potential.
+                </li>
+              </ul>
+              <p className=" font-semibold text-xl mb-10 mt-20">
+                Discover how our integrated approach to legal and financial
+                solutions can simplify your life and secure your future. Check
+                it out now!
+              </p>
+            </div>
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+              <div data-aos="fade-up" data-aos-delay="400">
+                <button
+                  onClick={handleStartPlanning}
+                  type="button"
+                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 mr-3 rounded-3xl"
+                >
+                  AmicusCue
+                </button>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <button
+                  onClick={handleLearnMore}
+                  type="button"
+                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full mb-4 sm:w-auto sm:mb-0 rounded-3xl"
+                >
+                  Financify
+                </button>
+              </div>
+              <div>
+                {/* Financial Form */}
+                {showForm && (
+                  <FinancialForm
+                    handleCloseLearnMoreHero={handleCloseLearnMore}
+                  />
+                )}
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

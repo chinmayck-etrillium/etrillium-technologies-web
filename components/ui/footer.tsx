@@ -37,20 +37,21 @@ export default function Footer() {
                 </Link>
               </div>
               <div className="text-gray-400">
-                At eTrillium Technologies, we believe that true financial
-                security comes from making informed decisions and taking
-                proactive steps to plan for the future. We envision a world
-                where individuals and families have the knowledge, tools, and
-                support they need to achieve their financial goals and live life
-                on their own terms.
+                At eTrillium Technologies, we are committed to empowering individuals
+                and businesses through our specialized offerings in legal
+                services and financial planning. Our mission is to provide
+                comprehensive support and expert guidance, ensuring our clients
+                make informed decisions and achieve enduring financial stability
+                and legal security.
               </div>
             </div>
+            
 
             {/* 2nd, 3rd and 4th blocks */}
             <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-2 gap-8 justify-self-left mt-10">
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Services</h6>
+                <h6 className="text-gray-200 font-medium mb-1">Financial Services</h6>
                 <ul>
                   <li className="mb-1">
                     <Link
@@ -86,7 +87,45 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
+              <div className="text-sm">
+                <h6 className="text-gray-200 font-medium mb-1">Legal Services</h6>
+                <ul>
+                  <li className="mb-1">
+                    <Link
+                      href="/"
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
+                      Ai based legal advice
+                    </Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link
+                      href="/"
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
+                      Advocate Appointment Booking
+                    </Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link
+                      href="/"
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
+                      Chat with experts
+                    </Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link
+                      href="/"
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
+                      Consumer Grievances
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </div>
+            
           </div>
 
           {/* Bottom area */}
