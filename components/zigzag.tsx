@@ -14,12 +14,14 @@ export default function Zigzag() {
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">
               Reach goals that matter
             </div>
-            <h1 className="h2 mb-4">Your One-Stop Financial Hub</h1>
+            <h1 className="h2 mb-4">
+              Your Trusted Legal and Financial Navigator
+            </h1>
             <p className="text-xl text-gray-400">
-              Our one-stop financial solution streamlines wealth management,
-              investment planning, retirement, tax optimization, insurance, and
-              estate planning into a cohesive platform, ensuring convenience and
-              efficiency for all your financial needs.
+              Empower your decisions with our integrated legal and financial
+              services. From expert legal counsel to personalized financial
+              strategies, we're here to guide you every step towards a secure
+              and successful future.
             </p>
           </div>
 
@@ -47,13 +49,15 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    Amplify growth, minimize costs.
+                    Empower clarity, achieve prosperity
                   </div>
                   <h3 className="h3 mb-3">Comprehensive Solutions</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Our product offers a holistic approach, covering all aspects
-                    of financial management, from wealth growth to risk
-                    mitigation and legacy planning.
+                    Our platform provides an integrated approach, combining
+                    expert legal services with strategic financial planning to
+                    address all your legal and financial needs. From
+                    safeguarding your assets to planning for the future, we
+                    offer comprehensive solutions tailored to your goals.
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -113,13 +117,15 @@ export default function Zigzag() {
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    Amplify growth, minimize costs.
+                    Empower clarity, achieve prosperity
                   </div>
                   <h3 className="h3 mb-3">Personalized Guidance</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    We provide tailored advice and strategies based on
-                    individual needs and goals, ensuring that each client
-                    receives personalized attention and support.
+                    At our firm, we prioritize your unique journey by offering
+                    customized legal and financial solutions. Our approach is
+                    centered around understanding your specific needs and
+                    aspirations, providing personalized guidance that evolves
+                    with you.
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -140,7 +146,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Tailored Strategies</span>
+                      <span>Customized Solutions</span>
                     </li>
                     <li className="flex items-center">
                       <svg
@@ -150,7 +156,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Emotional Support</span>
+                      <span>Compassionate Guidance</span>
                     </li>
                   </ul>
                 </div>
@@ -179,13 +185,14 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    Amplify growth, minimize costs.
+                    Empower clarity, achieve prosperity
                   </div>
                   <h3 className="h3 mb-3">Streamlined Experience</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    With our intuitive platform and expert guidance, users can
-                    navigate complex financial decisions with ease, saving time
-                    and minimizing stress.
+                    Experience seamless navigation through legal and financial
+                    complexities with our intuitive platform and expert
+                    guidance. We empower you to make informed decisions
+                    efficiently, saving valuable time and reducing stress.
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">

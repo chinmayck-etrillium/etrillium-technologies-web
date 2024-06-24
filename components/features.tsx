@@ -1,31 +1,58 @@
 export default function Features() {
   return (
-    <section>
+    <section className=" -mt-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">
-              Wealth management optimizes finances for long-term prosperity and
-              security.
+              Streamlined Legal and Financial Solutions at Your Fingertips
             </h2>
             <p className="text-xl text-gray-400">
-              Wealth management involves strategic financial planning and
-              investment advice tailored to individual goals, aiming to grow and
-              protect assets while minimizing risks. It encompasses various
-              aspects such as investment portfolio management, retirement
-              planning, tax optimization, estate planning, and risk management.
-              The goal is to achieve financial objectives, preserve wealth
-              across generations, and enhance overall financial well-being. By
-              providing personalized guidance and employing a holistic approach,
-              wealth management helps individuals and families navigate complex
-              financial landscapes to secure their financial future.
+              Welcome to Your Partner in Legal and Financial Planning. Our
+              comprehensive services are designed to simplify your life,
+              combining expert legal advice with strategic financial planning.
             </p>
+          </div>
+          <div className="max-w-3xl mx-auto">
+            <h4 className="h4 mb-4 text-center">Why Choose Us?</h4>
+            <ul className="font-medium text-gray-400">
+              <li>
+                <strong className="text-gray-300">Ease of Use:</strong> Our
+                user-friendly platform makes managing your legal and financial
+                needs simple and efficient.
+              </li>
+              <br />
+              <li>
+                <strong className="text-gray-300">
+                  Expert Financial Planning:
+                </strong>{" "}
+                Unlock the potential of your financial future with our tailored
+                strategies and professional guidance.
+              </li>
+              <br />
+              <li>
+                <strong className="text-gray-300">
+                  Convenient Legal Services:
+                </strong>{" "}
+                Access expert legal advice from the comfort of your home. Book
+                appointments with top lawyers, get legal documentation done
+                seamlessly, and much more.
+              </li>
+            </ul>
+            <br />
+            <br />
+            <p className="font-bold text-xl text-center">
+              Experience the ultimate in convenience and expertise. Empower your
+              future with our integrated legal and financial solutions.
+            </p>
+            <br />
+            <br />
           </div>
 
           {/* Items */}
           <div
-            className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none"
+            className="my-20 max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none"
             data-aos-id-blocks
           >
             {/* 1st item */}
@@ -60,14 +87,13 @@ export default function Features() {
                   strokeWidth="2"
                 />
               </svg>
-              <h4 className="h4 mb-2 ">Tailored Strategies</h4>
+              <h4 className="h4 mb-2 ">Instant Expert Advice</h4>
               <p
-                className="text-lg text-gray-400 text-center text-justify mt-8"
-                style={{ letterSpacing: "-1px" }}
+                className="text-lg text-gray-400 text-justify mt-8"
+                style={{ letterSpacing: "-1.4px" }}
               >
-                Our wealth management services are personalized to your unique
-                financial goals, risk tolerance, and timeline, ensuring a
-                customized approach to building and preserving your wealth.
+                Our AI-powered platform provides immediate and accurate legal
+                advice, addressing your doubts and questions in real-time.
               </p>
             </div>
 
@@ -105,16 +131,15 @@ export default function Features() {
                 />
               </svg>
               <h4 className="h4 mb-2 text-center">
-                Comprehensive Financial Planning
+                Personalized Financial Plans
               </h4>
               <p
                 className="text-lg text-gray-400 text-center text-justify"
-                style={{ letterSpacing: "-1px" }}
+                style={{ letterSpacing: "-1.4px" }}
               >
-                We provide holistic financial planning that encompasses
-                investment management, retirement planning, estate planning, tax
-                optimization, and more, addressing all aspects of your financial
-                life.
+                Benefit from AI-generated financial plans tailored to your
+                specific goals, ensuring a customized approach to your financial
+                future.
               </p>
             </div>
 
@@ -162,15 +187,13 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Expert Guidance</h4>
+              <h4 className="h4 mb-2">24/7 Accessibility</h4>
               <p
                 className="text-lg text-gray-400 text-center text-justify mt-7"
-                style={{ letterSpacing: "-0.5px" }}
+                style={{ letterSpacing: "-1.4px" }}
               >
-                Our team of experienced wealth managers offers professional
-                expertise and guidance, leveraging in-depth market knowledge and
-                industry insights to make informed investment decisions on your
-                behalf.
+                Access legal and financial assistance anytime, anywhere. Our AI
+                services are available around the clock to meet your needs.
               </p>
             </div>
 
@@ -211,14 +234,13 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Diversified Portfolios</h4>
+              <h4 className="h4 mb-2">Efficient Appointment Scheduling</h4>
               <p
                 className="text-lg text-gray-400 text-center text-justify"
-                style={{ letterSpacing: "-0.7px" }}
+                style={{ letterSpacing: "-1.7px" }}
               >
-                We construct well-diversified investment portfolios tailored to
-                your needs, incorporating a mix of asset classes, sectors, and
-                investment styles to optimize returns while managing risk.
+                Easily book appointments with top lawyers through our platform,
+                saving you time and hassle.
               </p>
             </div>
 
@@ -256,15 +278,14 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Proactive Monitoring</h4>
+              <h4 className="h4 mb-2">Comprehensive Documentation Services</h4>
               <p
                 className="text-lg text-gray-400 text-center text-justify"
-                style={{ letterSpacing: "-0.5px" }}
+                style={{ letterSpacing: "-1.5px" }}
               >
-                We continuously monitor your portfolio's performance and
-                proactively make adjustments as needed to adapt to changing
-                market conditions, ensuring your investment strategy remains
-                aligned with your goals.
+                Streamline your legal documentation process with AI-driven
+                accuracy and efficiency, ensuring all your paperwork is handled
+                correctly.
               </p>
             </div>
 
@@ -310,16 +331,14 @@ export default function Features() {
                 </g>
               </svg>
 
-              <h4 className="h4 mb-2">Comprehensive Coverage</h4>
+              <h4 className="h4 mb-2">Cost-Effective Solutions</h4>
               <p
                 className="text-lg text-gray-400 text-center text-justify"
-                style={{ letterSpacing: "-0.5px" }}
+                style={{ letterSpacing: "-1.5px" }}
               >
-                Secure your peace of mind with our comprehensive insurance
-                coverage and claim advisory service. Our feature-packed plans
-                offer protection for every aspect of your life, from auto to
-                home, health, and life insurance. Trust in our services for
-                reliable protection against unforeseen events and emergencies.
+                Save on legal and financial planning costs with our AI-powered
+                services, providing expert advice and planning at a fraction of
+                the traditional cost.
               </p>
             </div>
           </div>
