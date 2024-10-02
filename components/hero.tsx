@@ -113,14 +113,14 @@ export default function Hero() {
             </p>
 
             <ModalVideo
-            thumb={Thumbnail}
-            thumbWidth={800}
-            thumbHeight={600}
-            thumbAlt="Modal video thumbnail"
-            video="./videos/Finalcut.mp4"
-            videoWidth={1920}
-            videoHeight={1080}
-          />
+              thumb={Thumbnail}
+              thumbWidth={800}
+              thumbHeight={600}
+              thumbAlt="Modal video thumbnail"
+              video="./videos/Finalcut.mp4"
+              videoWidth={1920}
+              videoHeight={1080}
+            />
 
             <h2
               className="text-2xl font-bold my-10"
@@ -164,7 +164,7 @@ export default function Hero() {
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <button
-                  onClick={handleLearnMore}
+                  onClick={handleStartPlanning}
                   type="button"
                   className="btn text-white bg-gray-700 hover:bg-gray-800 w-full mb-4 sm:w-auto sm:mb-0 rounded-3xl"
                 >
@@ -181,7 +181,6 @@ export default function Hero() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
