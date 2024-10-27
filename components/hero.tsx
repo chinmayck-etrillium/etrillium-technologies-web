@@ -39,7 +39,7 @@ export default function Hero() {
         <div className="fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-gray-900 bg-opacity-50 z-50">
           <div className="bg-white p-8 rounded-lg">
             <p className="text-lg text-gray-800 mb-4 flex justify-center">
-              In Progress
+              In Progress....
             </p>
             <div className="flex justify-center">
               <button
